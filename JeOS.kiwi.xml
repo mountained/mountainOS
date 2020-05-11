@@ -61,6 +61,7 @@
         <file name="drivers/pci/xen-pcifront.ko" arch="x86_64"/>
     </drivers>
     <packages type="image">
+        <archive name="etc.tar.gz"/>
         <package name="patterns-base-minimal_base"/>
         <package name="aaa_base-extras"/>
         <package name="acl"/>
@@ -118,7 +119,7 @@
         <package name="openssh"/>
         <package name="syslog-ng"/>
         <package name="yast2-firstboot"/>
-        <package name="libyui-ncurses-pkg"/>
+        <package name="libyui-qt-pkg"/>
         <package name="make"/>
         <package name="clamav"/>
         <package name="udev"/>
@@ -128,10 +129,8 @@
         <package name="xf86-input-evdev"/>
         <package name="sddm"/>
         <package name="lxqt-session"/>
-        <package name="compton-conf"/>
         <package name="obconf-qt"/>
         <package name="openbox"/>
-        <package name="compton"/>
         <package name="lxqt-runner"/>
         <package name="lxqt-config"/>
         <package name="lxqt-qtplugin"/>
@@ -145,7 +144,33 @@
         <package name="lxqt-openssh-askpass"/>
         <package name="lxqt-qtplugin"/>
         <package name="lxqt-sudo"/>
-        <package name="gtk2-engines"/>
+        <package name="qterminal"/>
+        <package name="menu-cache"/>
+        <package name="libKF5WindowSystem5"/>
+        <package name="libQt5Core5"/>
+        <package name="libQt5Gui5"/>
+        <package name="libQt5Widgets5"/>
+        <package name="libQt5X11Extras5"/>
+        <package name="libQt5Xdg3"/>
+        <package name="libX11-6"/>
+        <package name="glibc"/>
+        <package name="libstdc++6"/>
+        <package name="libudev1"/>
+        <package name="update-alternatives"/>
+        <package name="libQt5Xml5"/>
+        <package name="libQt5Concurrent5"/>
+        <package name="libqt5-linguist"/>
+        <package name="liblxqt0"/>
+        <package name="libqt5-qtbase"/>
+        <package name="libqt5-qttools"/>
+        <package name="xorg-x11-fonts"/>
+        <package name="picom"/>
+        <package name="breeze5-icons"/>
+        <package name="breeze5-decoration"/>
+        <package name="breeze5-style"/>
+        <package name="breeze5-wallpapers"/>
+        <package name="breeze5-cursors"/>
+        <package name="breeze"/>
     </packages>
     <packages type="image" profiles="InstallISO">
         <package name="dracut-kiwi-oem-repart"/>
